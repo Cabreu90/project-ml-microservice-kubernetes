@@ -11,7 +11,7 @@ COPY . app.py /app/
 ## Step 3:
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
-run pip install  --upgrade pip &&\
+run pip install --upgrade pip &&\
         pip install -r requirements.txt
 
 ## Step 4:
