@@ -42,4 +42,4 @@ jobs:
             . venv/bin/activate
             make lint
       - store_test_results:
-          path: test-results
+          path: ./tmp/test-results
