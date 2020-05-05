@@ -1,1 +1,4 @@
-<paste log output from Kubernetes-mediated prediction, here>
+ubuntu@ip-172-31-20-228:~$ kubectl port-forward pods/app 8000:80
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
