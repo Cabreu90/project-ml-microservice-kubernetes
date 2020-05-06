@@ -10,6 +10,7 @@ dockerpath=cabreu90/app
 
 # Step 2:  
 # Authenticate & tag
+cat ~/mypassword.txt | docker login --username cabreu90 --password-stdin
 echo "Docker ID and Image: $dockerpath"
 docker tag 923fc3bd0e37 $dockerpath
 
